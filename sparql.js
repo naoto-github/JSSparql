@@ -51,8 +51,7 @@ SELECT ?url ?label ?about WHERE {
        schema:about ?about.
        FILTER CONTAINS(?label, "名古屋城図")
 } 
-LIMIT 5
+LIMIT 3
 `;
 
-
-var myquery = sparql1
+var myquery = sparql6
