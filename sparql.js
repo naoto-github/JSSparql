@@ -54,4 +54,4 @@ SELECT ?url ?label ?about WHERE {
 LIMIT 3
 `;
 
-var myquery = sparql6
+var myquery = sparql1
